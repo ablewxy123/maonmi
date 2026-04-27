@@ -12,7 +12,18 @@
       "Bash(ssh-keygen:*)",
       "Bash(nc:*)",
       "Bash(pbcopy)",
-      "Bash(git remote:*)"
+      "Bash(git remote:*)",
+      "Bash(grep -E \"\\\\.\\(ts|tsx|vue|json\\)$\")",
+      "Bash(npm run:*)",
+      "Bash(curl -s http://localhost:9980)",
+      "Bash(npx vite:*)",
+      "Bash(curl -s http://localhost:9981)",
+      "Bash(./node_modules/.bin/vite --mode dev --port 9982)",
+      "Bash(curl -s http://localhost:9982)",
+      "Bash(npm install:*)",
+      "Bash(./node_modules/.bin/vue-tsc --noEmit)",
+      "mcp__ide__getDiagnostics",
+      "Bash(curl:*)"
     ]
   }
 }

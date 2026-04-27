@@ -2,6 +2,7 @@ import type { App } from 'vue'
 import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
 
 export * from './app/index'
+export * from './game/index'
 
 export function installPinia(app: App) {
   const pinia = createPinia()

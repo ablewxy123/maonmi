@@ -13,7 +13,13 @@ export const routes: RouteRecordRaw[] = [
     path: '/home',
     name: 'home',
     component: () => import('@/views/Home.vue'),
-    meta: { title: '首页' }
+    meta: { title: '首页' },
+  },
+  {
+    path: '/game',
+    name: 'game',
+    component: () => import('@/views/game/index.vue'),
+    meta: { title: '毛你咪' },
   },
   {
     path: '/not-found',
